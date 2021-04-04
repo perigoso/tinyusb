@@ -93,19 +93,7 @@ CFLAGS += \
   -fno-strict-aliasing \
   -Wdouble-promotion \
   -Wstrict-prototypes \
-  -Wall \
-  -Wextra \
   -Werror \
-  -Wfatal-errors \
-  -Werror-implicit-function-declaration \
-  -Wfloat-equal \
-  -Wundef \
-  -Wshadow \
-  -Wwrite-strings \
-  -Wsign-compare \
-  -Wmissing-format-attribute \
-  -Wunreachable-code \
-  -Wcast-align
 
 # Debugging/Optimization
 ifeq ($(DEBUG), 1)
